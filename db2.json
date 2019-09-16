@@ -1,0 +1,84 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "first_name": "Joachim",
+      "last_name": "Dumbarton",
+      "email": "jdumbarton0@imdb.com",
+      "gender": "Male",
+      "ip_address": "218.187.212.46"
+    },
+    {
+      "id": 2,
+      "first_name": "Elayne",
+      "last_name": "Danielou",
+      "email": "edanielou1@etsy.com",
+      "gender": "Female",
+      "ip_address": "0.155.78.61"
+    },
+    {
+      "id": 3,
+      "first_name": "Keri",
+      "last_name": "Tippings",
+      "email": "ktippings2@nydailynews.com",
+      "gender": "Female",
+      "ip_address": "100.242.230.117"
+    },
+    {
+      "id": 4,
+      "first_name": "Boone",
+      "last_name": "Yurshev",
+      "email": "byurshev3@storify.com",
+      "gender": "Male",
+      "ip_address": "250.6.161.235"
+    },
+    {
+      "id": 5,
+      "first_name": "Shurlock",
+      "last_name": "Lawson",
+      "email": "slawson4@dell.com",
+      "gender": "Male",
+      "ip_address": "166.206.58.141"
+    },
+    {
+      "id": 6,
+      "first_name": "Ramsay",
+      "last_name": "Lindsell",
+      "email": "rlindsell5@joomla.org",
+      "gender": "Male",
+      "ip_address": "55.135.231.109"
+    },
+    {
+      "id": 7,
+      "first_name": "Glenda",
+      "last_name": "Marzelo",
+      "email": "gmarzelo6@tumblr.com",
+      "gender": "Female",
+      "ip_address": "89.41.211.44"
+    },
+    {
+      "id": 8,
+      "first_name": "Pip",
+      "last_name": "Prahm",
+      "email": "pprahm7@economist.com",
+      "gender": "Male",
+      "ip_address": "206.169.75.97"
+    },
+    {
+      "id": 9,
+      "first_name": "Tally",
+      "last_name": "Posselwhite",
+      "email": "tposselwhite8@hexun.com",
+      "gender": "Female",
+      "ip_address": "253.176.245.73"
+    },
+    {
+      "id": 10,
+      "first_name": "Charline",
+      "last_name": "Jirik",
+      "email": "cjirik9@etsy.com",
+      "gender": "Female",
+      "ip_address": "26.21.98.141"
+    }
+  ]
+}
