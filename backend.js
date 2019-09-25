@@ -25,8 +25,8 @@ $(document).ready(function () {
         bSortable: true,
         serverSide: false,
         ajax: {
-            url: 'http://localhost:8080/db2.json' /*'http://localhost:3000/employees/'*/,
-            dataSrc: 'employees',
+            url: 'http://localhost:3000/employees/',
+            dataSrc: '',
             contentType: "application/json",
             async: true,
             dataType: 'json',
@@ -46,3 +46,56 @@ $(document).ready(function () {
         $('#count').html("Filas: " + table.rows({ search: 'applied' }).data().length);
     })
 });
+
+
+
+
+
+
+
+/*
+$(document).ready(function () {
+    $.ajax({
+        url: 'http://localhost:3000/employees/',
+        contentType: "application/json",
+        async: true,
+        type: "GET",
+        dataType: 'json',
+        success: function (data) {
+            $.each(data, function (i, item) {
+                $('#data').bootstrapTable({
+                    data: data
+                })
+            })
+        }
+    })
+});
+*/
+
+/*
+$.getJSON("http://localhost:3000/employees/", function(data){
+      $.each(data, function(i, item){
+          $('#data').append('<span>'+ item.first_name +' </span>' +
+          '<span>'+ item.last_name +'</span><br/>');
+      });
+  });
+});
+*/
+
+/*
+$.ajax({
+    url: 'http://localhost:3000/employees/',
+    contentType: "application/json",
+    async: true,
+    type: "GET",
+    dataType: 'json',
+    success: function (data) {
+        $.each(data, function (i, item) {
+            $('#data').append('<tr><td>' + item.first_name + ' </td>' +
+                '<td>' + item.last_name + '</td>' +
+                '<td>' + item.email + '</td></tr>');
+        });
+    }
+});
+});
+*/

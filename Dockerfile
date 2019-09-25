@@ -1,7 +1,17 @@
-FROM node:7
-WORKDIR /app
-COPY package.json /app
+FROM node:10-alpine
+
+RUN mkdir -p /home/spcristofer/Escritorio/jsonserver/node_modules && chown -R node:node /home/spcristofer/Escritorio/jsonserver
+
+WORKDIR /home/spcristofer/Escritorio/jsonserver
+
+COPY package*.json ./
+
+USER node
+
 RUN npm install
-COPY . /app
-CMD node index.js
-EXPOSE 8082
+
+COPY --chown=node:node . .
+
+EXPOSE 8080
+
+CMD [ "node", "app.js" ]
